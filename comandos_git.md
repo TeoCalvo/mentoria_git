@@ -1,0 +1,9 @@
+- `git init .`:  Inicializa o git no diretório atual
+- `git status`: Estado atual do projeto
+- `git add <nome_arquivo.tipo_arquivo>`: Adiciona o arquivo para versionamento no estado em que ele se encontra no momento.
+- `git commit -m "<texto>"`: Bate a foto dos arquivos naquele momento.
+- `git checkout -b <nome_branch>`: Cria e se move para outra branch (ramificação)
+- `git branch`: Lista as branchs e demonstra a sua localização
+- `git checkout <nome_branch>` Se move para outra branch já existente
+- `git merge <nome_branch_que_deseja_anexar>`: Se deseja trazer as atualizações de uma branch para a main, por exemplo, é necessário colocar estar localizado na master e comandar `git merge <nome_da_branch>`
+- `git push <repositorio> <nome_branch>` Geralmente o repositório utilizado é `origin` relacionado ao repositório remoto, e o nome da branch é referente onde desejado enviar as alterações 
